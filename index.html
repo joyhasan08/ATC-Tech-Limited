@@ -30,12 +30,13 @@
             <h1>overly</h1>
         </div> -->
         <section>
-            <nav class="flex justify-around items-center p-4  ">
+            <nav class="flex flex-col lg:flex-row md:justify-around md:items-center p-4  ">
+
                 <div>
-                    <img class="w-60" src="/asset/icon/ATC-Logo-white.png" alt="ATC-logo">
+                    <img class="w-32 md:w-60" src="/asset/icon/ATC-Logo-white.png" alt="ATC-logo">
                 </div>
                 <div>
-                    <ul class=" flex gap-5 text-xl font-medium">
+                    <ul class=" pl-7 lg:p-0 flex flex-col md:flex-row gap-5 md:text-xl font-medium">
                         <li><a href="#">Home</a></li>
                         <li><a href="#">Current Openings</a></li>
                         <li><a href="#">About US</a></li>
@@ -47,12 +48,12 @@
             <!-- HERO Section -->
             <section class="flex items-center justify-center  min-h-[600px] ">
                 <div class="max-w-7xl mx-auto text-center space-y-4">
-                    <h2 class="text-6xl">
+                    <h2 class="md:text-6xl text-3xl ">
                         <span class="font-light">Innovate,</span>
                         <span class="font-bold text-[#0f79b9]">Create</span>
                         <span class="font-light">, Elevate</span>
                     </h2>
-                    <h2 class="text-6xl font-bold">
+                    <h2 class="md:text-6xl text-3xl font-bold">
                         Your Digital Journey Starts Here.
                     </h2>
                     <div class="flex gap-4 justify-center items-center text-lg py-4 divide-x-2 min-h-28  ">
@@ -61,7 +62,7 @@
                         <h3 class="pl-4">24/7 Customer <br> Support</h3>
                     </div>
                     <button
-                        class="text-white bg-[#0f79b9] text-2xl font-semibold px-4 py-3 rounded-lg shadow-xl">Contact
+                        class="text-white bg-[#0f79b9] md:text-2xl font-semibold px-4 py-3 rounded-lg shadow-xl">Contact
                         US</button>
                 </div>
             </section>
@@ -69,62 +70,68 @@
     </header>
     <main>
         <!-- Benefits Section -->
-        <section class="pb-10">
+        <section class="pb-10 p-4">
             <div class="text-center space-y-2 pb-14">
-                <h2 class="text-4xl font-semibold"><span class="text-[#0f79b9]">Benefits</span> You’ll Get</h2>
-                <p class="text-lg font-normal">Here are some benefits that you can expect from ATC Tech Ltd.'s services
+                <h2 class="md:text-4xl text-3xl font-semibold"><span class="text-[#0f79b9]">Benefits</span> You’ll Get
+                </h2>
+                <p class="md:text-lg font-normal">Here are some benefits that you can expect from ATC Tech Ltd.'s
+                    services
                 </p>
             </div>
             <!-- container -->
-            <div class="grid grid-cols-3 max-w-6xl mx-auto gap-14">
+            <div class="grid lg:grid-cols-3 md:grid-cols-2 max-w-6xl mx-auto md:gap-14 gap-8">
                 <!-- card 1 -->
                 <div class="text-center p-8 border-t-8 rounded-2xl border-[#0f79b9] shadow-2xl space-y-2">
-                    <img class="w-14 my-4 mx-auto" src="/asset//icon/terminal-svgrepo-com.svg" alt="terminal-icon">
+                    <img class="w-14 my-4 mx-auto" src="/asset/icon/terminal-svgrepo-com.svg" alt="terminal-icon">
                     <h2 class="font-semibold text-xl">Tailored Software Solutions</h2>
                     <p class="">
                         Our software development services are customized to meet the unique needs of each client,
                         ensuring that the final product aligns perfectly with their requirements and objectives.
                     </p>
                 </div>
-                <!-- card 1 -->
+                <!-- card 2 -->
                 <div class="text-center p-8 border-t-8 rounded-xl border-[#0f79b9] shadow-2xl space-y-2">
-                    <img class="w-14 my-4 mx-auto" src="/asset//icon/terminal-svgrepo-com.svg" alt="terminal-icon">
+                    <img class="w-14 my-4 mx-auto bg-blue-300 p-1 rounded-2xl " src="/asset//icon/bot.svg"
+                        alt="terminal-icon">
+                    <h2 class="font-semibold text-xl">Cutting-edge AI Solutions</h2>
+                    <p class="">
+                        Our artificial intelligence solutions enable businesses to harness the power of advanced
+                        algorithms and data analytics to optimize processes, make data-driven decisions, and gain a
+                        competitive edge in their industry.
+                    </p>
+                </div>
+                <!-- card 3 -->
+                <div class="text-center p-8 border-t-8 rounded-xl border-[#0f79b9] shadow-2xl space-y-2">
+                    <img class="w-14 my-4 mx-auto" src="/asset//icon/shield-check-svgrepo-com.svg" alt="terminal-icon">
                     <h2 class="font-semibold text-xl">Tailored Software Solutions</h2>
                     <p class="">
                         Our software development services are customized to meet the unique needs of each client,
                         ensuring that the final product aligns perfectly with their requirements and objectives.
                     </p>
                 </div>
-                <!-- card 1 -->
+                <!-- card 4 -->
                 <div class="text-center p-8 border-t-8 rounded-xl border-[#0f79b9] shadow-2xl space-y-2">
-                    <img class="w-14 my-4 mx-auto" src="/asset//icon/terminal-svgrepo-com.svg" alt="terminal-icon">
+                    <img class="w-14 my-4 mx-auto" src="/asset//icon/cloud-check-svgrepo-com.svg" alt="terminal-icon">
                     <h2 class="font-semibold text-xl">Tailored Software Solutions</h2>
                     <p class="">
                         Our software development services are customized to meet the unique needs of each client,
                         ensuring that the final product aligns perfectly with their requirements and objectives.
                     </p>
                 </div>
-                <!-- card 1 -->
+                <!-- card 5 -->
                 <div class="text-center p-8 border-t-8 rounded-xl border-[#0f79b9] shadow-2xl space-y-2">
-                    <img class="w-14 my-4 mx-auto" src="/asset//icon/terminal-svgrepo-com.svg" alt="terminal-icon">
+                    <img class="w-14 my-4 mx-auto" src="/asset/icon/box-minimalistic-svgrepo-com.svg"
+                        alt="terminal-icon">
                     <h2 class="font-semibold text-xl">Tailored Software Solutions</h2>
                     <p class="">
                         Our software development services are customized to meet the unique needs of each client,
                         ensuring that the final product aligns perfectly with their requirements and objectives.
                     </p>
                 </div>
-                <!-- card 1 -->
+                <!-- card 6 -->
                 <div class="text-center p-8 border-t-8 rounded-xl border-[#0f79b9] shadow-2xl space-y-2">
-                    <img class="w-14 my-4 mx-auto" src="/asset//icon/terminal-svgrepo-com.svg" alt="terminal-icon">
-                    <h2 class="font-semibold text-xl">Tailored Software Solutions</h2>
-                    <p class="">
-                        Our software development services are customized to meet the unique needs of each client,
-                        ensuring that the final product aligns perfectly with their requirements and objectives.
-                    </p>
-                </div>
-                <!-- card 1 -->
-                <div class="text-center p-8 border-t-8 rounded-xl border-[#0f79b9] shadow-2xl space-y-2">
-                    <img class="w-14 my-4 mx-auto" src="/asset//icon/terminal-svgrepo-com.svg" alt="terminal-icon">
+                    <img class="w-14 my-4 mx-auto"
+                        src="/asset/icon/problem-solving-fix-offer-solution-solve-svgrepo-com.svg" alt="terminal-icon">
                     <h2 class="font-semibold text-xl">Tailored Software Solutions</h2>
                     <p class="">
                         Our software development services are customized to meet the unique needs of each client,
@@ -135,28 +142,31 @@
         </section>
 
         <!-- Insider section -->
-        <section class="flex gap-4 bg-black text-white ">
-            <div class="flex-1">
-                <img class=" my-14 mx-24 rounded-lg" src="/asset/background/bg-atc.png" alt="">
-            </div>
-            <div class="flex-1 text-center flex flex-col justify-center items-center space-y-4">
-                <h2 class="text-4xl font-semibold">Become an <span class="text-[#0f79b9]">insider</span></h2>
-                <p class="text-lg font-normal"> Elevate your career with us as we shape the future of technology
-                    together.</p>
-                <button class="text-white bg-[#0f79b9] text-xl font-semibold px-3 py-2 rounded-lg shadow-xl ">Join
-                    Us</button>
-            </div>
+        <section class="bg-black">
+            <section class="flex  gap-4  text-white max-w-7xl mx-auto ">
+                <div class="md:w-1/2">
+                    <img class=" hidden md:block my-14 m-4 rounded-lg" src="/asset/background/bg-atc.png" alt="">
+                </div>
+                <div class="md:w-1/2 text-center flex flex-col justify-center items-center space-y-4 p-4 ">
+                    <h2 class="text-4xl font-semibold">Become an <span class="text-[#0f79b9]">insider</span></h2>
+                    <p class="text-lg font-normal text-wrap "> Elevate your career with us as we shape the future of
+                        technology
+                        together.</p>
+                    <button class="text-white bg-[#0f79b9] text-xl font-semibold px-3 py-2 rounded-lg shadow-xl ">Join
+                        Us</button>
+                </div>
+            </section>
         </section>
 
         <!-- quote Section -->
-        <section class=" pb-16">
+        <section class=" pb-8">
             <div class="container mx-auto flex flex-col items-center pb-6 mb-4 md:p-10 md:px-12">
                 <!-- <h1 class="text-4xl font-semibold leadi text-center">What our customers are saying about us</h1> -->
             </div>
             <div class=" w-full  flex justify-center ">
 
                 <div class="flex flex-col items-center max-w-lg w-fit  mx-auto  lg:mx-0">
-                    <div class="relative text-center">
+                    <div class="relative text-center p-4">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
                             class="absolute top-0 left-0 w-8 h-8 dark:text-gray-700">
                             <path fill="currentColor" d="M232,246.857V16H16V416H54.4ZM48,48H200V233.143L48,377.905Z">
@@ -179,11 +189,12 @@
                         </svg>
                     </div>
                     <span class="w-12 h-1 my-2 rounded-lg dark:bg-[#0f79b9]"></span>
-                    <p><span class="font-bold text-lg">Dr. Mohammad Atikur Rahman</span> || MD & CEO at ATC Tech Limited
+                    <p><span class="font-bold text-lg">MD & CEO at ATC Tech Limited</span>
                     </p>
                 </div>
             </div>
-            <button class="bg-[#0f79b9] text-white p-6 rounded-2xl shadow-2xl font-bold relative -right-16 w-fit mt-4 ">
+            <button
+                class="bg-[#0f79b9] text-white p-4  md:p-6 rounded-2xl shadow-2xl font-bold relative -right-5 md:-right-16 w-fit mt-4 ">
                 <span> <img class="w-10 mx-auto text-white " src="/asset/icon/chat.svg" alt=""></span> Let's
                 Chat
             </button>
@@ -191,15 +202,16 @@
 
         <!-- Project Section -->
         <section class="bg-[#1e1e1e]">
-            <section class="py-8 text-white bg-[#1e1e1e] flex justify-around items-center gap-4 max-w-7xl  mx-auto">
-                <div class="w-1/4 space-y-10 ">
-                    <h2 class="text-5xl font-semibold">Let's talk about <br> your project</h2>
+            <section
+                class="py-8 text-white bg-[#1e1e1e] flex flex-col md:flex-row justify-around items-center gap-4 max-w-7xl  mx-auto">
+                <div class="md:w-1/4 w-fit space-y-10 ">
+                    <h2 class=" text-3xl md:text-5xl font-semibold">Let's talk about <br> your project</h2>
                     <button
                         class="text-white bg-[#0f79b9] text-xl font-semibold px-3 py-2 rounded-lg shadow-xl ">Schedule a
                         call</button>
                 </div>
                 <!-- input filed -->
-                <div class="w-9/12 flex flex-col gap-10   p-14 ">
+                <div class="md:w-9/12 w-full flex flex-col gap-10   p-14 ">
                     <div class="flex flex-row justify-around gap-14">
                         <input class=" w-1/2 p-2 text-lg font-semibold  border-b-2 bg-[#1e1e1e] border-white"
                             type="text" placeholder="Name*">

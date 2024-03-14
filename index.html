@@ -31,7 +31,7 @@
 <body>
     <header class=" md:min-h-[700px]    text-white ">
         <section class="absolute z-10 w-full  bg-opacity-80  
-        bg-gradient-to-b from-slate-800">
+            bg-gradient-to-b from-slate-800">
             <nav class="flex flex-col lg:flex-row md:justify-around md:items-center p-4    ">
                 <div>
                     <img class="w-32 mx-auto md:mx-0 md:w-60" src="./asset/icon/ATC-Logo-white.png" alt="ATC-logo">
@@ -71,7 +71,7 @@
                     </div>
                     <a href="#contact">
                         <button class=" text-white bg-[#0f79b9] hover:bg-gray-500 md:text-2xl md:font-semibold p-2 md:px-4 md:py-3 rounded-lg shadow-xl 
-                    flex gap-2 items-center mx-auto ">Contact
+                        flex gap-2 items-center mx-auto ">Contact
                             US <span><img class=" w-5 md:w-10" src="./asset/icon/arrow.svg" alt=""></span></button>
                     </a>
                 </div>
@@ -84,8 +84,8 @@
                     <img src="./asset/background/hacker-dark-room-image.jpg" alt="">
                 </div>
                 <!-- <div class=" flex-none w-full flex flex-col items-center justify-center">
-                    <img src="./asset/background/Carousel-image-3.jpg" alt="">
-                </div> -->
+                        <img src="./asset/background/Carousel-image-3.jpg" alt="">
+                    </div> -->
                 <div class=" flex-none w-full flex flex-col items-center justify-center">
                     <img src="./asset/background/robot-working-office-instead-humans.jpg" alt="">
                 </div>
@@ -270,7 +270,7 @@
 
         <!-- What We Do Section -->
         <section class="  w-full flex flex-col md:flex-row items-center  lg:px-20   
-            bg-[url('./asset/background/final.svg')] bg-no-repeat lg:bg-[length:100%] p-4   lg:h-[600px]       ">
+                bg-[url('./asset/background/final.svg')] bg-no-repeat lg:bg-[length:100%] p-4   lg:h-[600px]       ">
             <section class="md:px-4 px-2  mx-auto w-full">
                 <div class="w-full mx-auto  text-center   md:w-11/12 xl:w-9/12 ">
                     <h1 class="p-2 md:p-4 mb-6 text-2xl   md:text-4xl md:tracking-tight">
@@ -486,14 +486,16 @@
                     </div>
                 </div>
             </section>
-            <a href="https://api.whatsapp.com/message/S6R5C44OGLRMN1?autoload=1&app_absent=0">
-                <button
-                    class="bg-[#0f79b9] hover:bg-teal-700 text-white p-4  md:p-6  rounded-2xl shadow-2xl font-bold relative -right-5 md:-right-16 w-fit  mb-4">
-                    <span> <img class=" w-6 md:w-10 mx-auto text-white " src="./asset/icon/chat.svg" alt=""></span>
-                    Let's
-                    Chat
-                </button>
-            </a>
+            <div class="w-full  flex justify-end">
+                <a href="https://api.whatsapp.com/message/S6R5C44OGLRMN1?autoload=1&app_absent=0">
+                    <button
+                        class="bg-[#0f79b9] hover:bg-teal-700 text-white p-2  md:p-4  rounded-2xl shadow-2xl font-bold relative right-5 w-fit  mb-4">
+                        <span> <img class=" w-6 md:w-10 mx-auto text-white " src="./asset/icon/chat.svg" alt=""></span>
+                        Let's
+                        Chat
+                    </button>
+                </a>
+            </div>
         </section>
 
         <!-- Project Section -->
@@ -575,14 +577,32 @@
                     </div>
                     <div class="flex justify-center pt-4 space-x-4 lg:pt-0 lg:col-end-13">
                         <a rel="noopener noreferrer" href="#" title="Email"
-                            class="flex items-center justify-center w-10 h-10 rounded-full dark:bg-[#0F79B9] dark:text-gray-900">
+                            class="flex items-center justify-center w-10 h-10 rounded-full bg-[#0F79B9] dark:text-gray-900">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
                                 class="w-5 h-5">
                                 <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
                                 <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
                             </svg>
                         </a>
-                        <a rel="noopener noreferrer" href="#" title="Twitter"
+                        <a rel="noopener noreferrer" href="https://www.youtube.com/@ATCTechLtd17" title="Gmail"
+                            class="flex items-center justify-center w-10 h-10 rounded-full sm:w-10 sm:h-10 bg-[#0F79B9] dark:text-gray-900">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 32 32"
+                                class="w-4 h-4">
+                                <path
+                                    d="M16.318 13.714v5.484h9.078c-0.37 2.354-2.745 6.901-9.078 6.901-5.458 0-9.917-4.521-9.917-10.099s4.458-10.099 9.917-10.099c3.109 0 5.193 1.318 6.38 2.464l4.339-4.182c-2.786-2.599-6.396-4.182-10.719-4.182-8.844 0-16 7.151-16 16s7.156 16 16 16c9.234 0 15.365-6.49 15.365-15.635 0-1.052-0.115-1.854-0.255-2.651z">
+                                </path>
+                            </svg>
+                        </a>
+                        <a rel="noopener noreferrer" href="https://www.facebook.com/ATCTechLtd17/" title="Facebook"
+                            class="flex items-center justify-center w-10 h-10 rounded-full sm:w-10 sm:h-10 bg-[#0F79B9] dark:text-gray-900">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 32 32"
+                                class="w-4 h-4">
+                                <path
+                                    d="M32 16c0-8.839-7.167-16-16-16-8.839 0-16 7.161-16 16 0 7.984 5.849 14.604 13.5 15.803v-11.177h-4.063v-4.625h4.063v-3.527c0-4.009 2.385-6.223 6.041-6.223 1.751 0 3.584 0.312 3.584 0.312v3.937h-2.021c-1.984 0-2.604 1.235-2.604 2.5v3h4.437l-0.713 4.625h-3.724v11.177c7.645-1.199 13.5-7.819 13.5-15.803z">
+                                </path>
+                            </svg>
+                        </a>
+                        <a rel="noopener noreferrer" href="https://twitter.com/atctechltd17" title="Twitter"
                             class="flex items-center justify-center w-10 h-10 rounded-full dark:bg-[#0F79B9] dark:text-gray-900">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" fill="currentColor"
                                 class="w-5 h-5">
